@@ -13,3 +13,5 @@ class EmailAddressParser
     @emailparsed = []
     
   end
+  
+end
