@@ -12,7 +12,7 @@ class EmailAddressParser
   
   def parse
     emails_a = @email.split(/[, ]/).uniq
-    emails_a.reject! { |e| e = 
+    emails_a.reject! { |e| e == ""}
     emails_a
   end
   
